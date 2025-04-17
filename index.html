@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samata Bhikavale - Portfolio</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+      background: #ffffff;
+    }
+
+    .profile-img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #4a90e2;
+      margin-bottom: 20px;
+    }
+
+    .hero-content h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .hero-content h2 {
+      font-size: 24px;
+      color: #4a90e2;
+      height: 30px;
+    }
+
+    .hero-content p {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
+    .social-links a {
+      display: inline-block;
+      margin: 10px;
+      text-decoration: none;
+      color: #4a90e2;
+      font-weight: bold;
+    }
+
+    .highlight {
+      color: #4a90e2;
+    }
+  </style>
+</head>
+</head>
+<body>
+
+ <section class="hero">
+  <div class="hero-content">
+    <img src="assets/images/samata-profile.jpg" alt="Samata Bhikavale" class="profile-img">
+    <h1>Hi, I’m <span class="highlight">Samata Bhikavale</span></h1>
+    <h2><span id="typing"></span></h2>
+    <p>Passionate about turning data into meaningful stories.</p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/samatabhikavale" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Samata-Bhikavale" target="_blank">GitHub</a>
+      <a href="https://public.tableau.com/app/profile/samata.bhikavale7211/vizzes" target="_blank">Tableau</a>
+      <a href="https://www.hackerrank.com/profile/bhikavales999" target="_blank">HackerRank</a>
+      <a href="https://medium.com/@bhikavalesamata" target="_blank">Medium</a>
+    </div>
+  </div>
+</section>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="script.js"></script>
+
+  <!-- Typed.js library (CDN) -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<!-- Your custom script -->
+<script>
+  let typed = new Typed('#typing', {
+    strings: [
+      'Data Analyst',
+      'SQL | Power BI | Excel',
+      'Python | ML Enthusiast',
+      'Loves Solving Business Problems',
+    ],
+    typeSpeed: 50,
+    backSpeed: 30,
+    backDelay: 2000,
+    loop: true
+  });
+</script>
+</body>
+</html>
